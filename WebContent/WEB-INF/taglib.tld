@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jspversion>2.0</jspversion>
+	<shortname></shortname>
+	<uri>misTags</uri>
+
+	<tag>
+		<name>miCombo</name>
+		<tagclass>tags.TagCombo</tagclass>
+		<bodycontent>empty</bodycontent>
+		<attribute>
+				<name>nombre</name>
+				<required>true</required>	
+		</attribute>
+		<attribute>
+				<name>sql</name>
+				<required>true</required>	
+		</attribute>		
+	</tag>	
+</taglib>
